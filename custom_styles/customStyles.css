@@ -1,0 +1,15 @@
+#logOutBtn {
+    float: right !important;
+    padding: 3px;
+}
+
+#fetchButton {
+    padding: 0.5em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+
+.div-center {
+    max-width: 80%;
+    margin: auto;
+}
