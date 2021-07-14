@@ -4,7 +4,6 @@ $(document).ready(function() {
     console.log(isMobile);
     if (isMobile) {
         $('.div-center').css("max-width", "100%");
-        $('#mohanVaddi').css("padding", "45px 20px");
     }
 
     var currentDate = new Date();
@@ -27,4 +26,19 @@ $(document).ready(function() {
     });
 
 
+
+
+
+
+
 });
+
+function checkToggle() {
+    if ($('#toggle-button').hasClass('bi-caret-down')) {
+        $('#toggle-button').addClass('bi-caret-down-fill');
+        $('#toggle-button').removeClass('bi-caret-down');
+    } else {
+        $('#toggle-button').removeClass('bi-caret-down-fill');
+        $('#toggle-button').addClass('bi-caret-down');
+    }
+}
